@@ -18,10 +18,11 @@ Sumabala Nair - Initial Contribution
 Kim Letkeman - Initial Contribution
 Sumabala Nair - Updated for hyperledger May 2016
 Sumabala Nair - Partial updates added May 2016
+Maciej Szulc - Update for IoT workshop
 ******************************************************************************/
 //SN: March 2016
 
-// IoT Blockchain Simple Smart Contract v 1.0
+// IoT Blockchain Simple Smart Contract v 1.0.1
 
 // This is a simple contract that creates a CRUD interface to 
 // create, read, update and delete an asset
@@ -44,7 +45,7 @@ type SimpleChaincode struct {
 
 const CONTRACTSTATEKEY string = "ContractStateKey"  
 // store contract state - only version in this example
-const MYVERSION string = "1.0"
+const MYVERSION string = "1.0.1"
 
 // ************************************
 // asset and contract state 
